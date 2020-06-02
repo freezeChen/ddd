@@ -1,7 +1,7 @@
 package domain
 
 type User struct {
-	Id      int
+	Id      int64
 	Name    string
-	Balance float64
+	Balance int64
 }
