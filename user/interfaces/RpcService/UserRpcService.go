@@ -1,8 +1,8 @@
 package RpcService
 
 import (
-	userDomain "learn/ddd/user/domain"
-	"learn/ddd/user/infrastructure/repository"
+	userDomain "ddd/user/domain"
+	"ddd/user/domain/repository"
 )
 
 type UserRpcService struct {

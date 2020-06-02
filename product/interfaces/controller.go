@@ -7,5 +7,5 @@ type Controller struct {
 
 func InitController() Controller {
 
-	wire.Build()
+
 }
